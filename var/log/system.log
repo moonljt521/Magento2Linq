@@ -138,3 +138,5 @@
 [2022-05-20 15:34:48] main.INFO: Add of item with id Yotpo_Yotpo::yotpo_report_reviews was processed [] []
 [2022-05-20 15:34:48] main.INFO: Add of item with id Yotpo_Yotpo::yotpo_reviews_external was processed [] []
 [2022-05-20 15:34:48] main.INFO: Add of item with id Yotpo_Yotpo::yotpo_analytics_external was processed [] []
+[2022-05-22 13:44:48] main.ERROR: Impossible to process constructor argument Parameter #0 [ <required> Magento\Theme\Model\ResourceModel\Theme\CollectionFactory $collectionFactory ] of Magento\Theme\Model\Theme\ThemeProvider class [] []
+[2022-05-22 13:44:48] main.CRITICAL: Impossible to process constructor argument Parameter #0 [ <required> Magento\Theme\Model\ResourceModel\Theme\CollectionFactory $collectionFactory ] of Magento\Theme\Model\Theme\ThemeProvider class [] []
