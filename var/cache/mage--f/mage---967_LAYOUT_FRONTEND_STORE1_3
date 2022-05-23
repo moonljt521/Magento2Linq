@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1653228012;s:6:"expire";i:1684764012;s:4:"tags";s:37:"967_LAYOUT_GENERAL_CACHE_TAG,967_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1653288855;s:6:"expire";i:1684824855;s:4:"tags";s:37:"967_LAYOUT_GENERAL_CACHE_TAG,967_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -6933,6 +6933,11 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1653228012;s:6:"expire";i:1684764012;s:4:"t
    </referenceBlock>
    <referenceContainer name="cart.summary">
       <block class="Klarna\Onsitemessaging\Block\Cart" name="klarna.osm.cart" as="klarna_osm_cart" template="Klarna_Onsitemessaging::html/placement/cart.phtml" after="-"/>
+   </referenceContainer>
+</body>
+</handle><handle id="magemastery_firstlayout_page_view"><body>
+   <referenceContainer name="content">
+      <block class="Magento\Framework\View\Element\Template" name="magemastery.first.layout.example" template="MageMastery_FirstLayout::example.phtml"/>
    </referenceContainer>
 </body>
 </handle><handle id="braintree_googlepay_review" layout="1column"><head>
